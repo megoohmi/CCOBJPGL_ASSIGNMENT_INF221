@@ -5,13 +5,13 @@ public class exercise1 {
 
 public static void main (String[] args) throws Exception{
 
-//Precondition
-assert iwillNotCheat == true: "SLAY MADAM";
+    //Precondition
+    assert iwillNotCheat == true: "SLAY MADAM";
 
 enterCompetition();
 
-//Postcondition
-assert iwillWin == true: "LUH so sad";
+    //Postcondition
+    assert iwillWin == true: "LUH so sad";
 
 }
 
