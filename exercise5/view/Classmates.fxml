@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClassmatesController"> 
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../images/bg.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="103.0" layoutX="67.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="103.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="103.0" layoutX="253.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="103.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="103.0" layoutX="429.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="103.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="103.0" layoutX="176.0" layoutY="219.0" stroke="BLACK" strokeType="INSIDE" width="103.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="103.0" layoutX="335.0" layoutY="219.0" stroke="BLACK" strokeType="INSIDE" width="103.0" />
+      <ImageView fitHeight="85.0" fitWidth="89.0" layoutX="74.0" layoutY="81.0">
+         <image>
+            <Image url="@exercise5/src/images/emlan.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="89.0" layoutX="260.0" layoutY="81.0">
+         <image>
+            <Image url="@exercise5/src/images/jiu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="89.0" layoutX="436.0" layoutY="81.0">
+         <image>
+            <Image url="@exercise5/src/images/kiether.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="89.0" layoutX="183.0" layoutY="228.0">
+         <image>
+            <Image url="@exercise5/src/images/leanna.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="89.0" layoutX="342.0" layoutY="228.0">
+         <image>
+            <Image url="@exercise5/src/images/shalimar.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn1" layoutX="94.0" layoutY="183.0" mnemonicParsing="false" onAction="#showInfo" text="Emlan" />
+      <Button fx:id="btn2" layoutX="290.0" layoutY="183.0" mnemonicParsing="false" onAction="#showInfo" text="Jiu" />
+      <Button fx:id="btn3" layoutX="454.0" layoutY="183.0" mnemonicParsing="false" onAction="#showInfo" text="Kiether" />
+      <Button fx:id="btn4" layoutX="201.0" layoutY="329.0" mnemonicParsing="false" onAction="#showInfo" text="Leanna" />
+      <Button fx:id="btn5" layoutX="359.0" layoutY="329.0" mnemonicParsing="false" onAction="#showInfo" text="Shalimar" />
+      <Text fill="#b22323" layoutX="113.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MY (LITTLE) CLASSMATES" wrappingWidth="385.55859375">
+         <font>
+            <Font name="Cooper Black" size="27.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="85.0" fitWidth="89.0" layoutX="74.0" layoutY="81.0">
+         <image>
+            <Image url="@../images/emlan.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="89.0" layoutX="260.0" layoutY="81.0">
+         <image>
+            <Image url="@../images/jiu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="89.0" layoutX="436.0" layoutY="81.0">
+         <image>
+            <Image url="@../images/kiether.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="89.0" layoutX="183.0" layoutY="228.0">
+         <image>
+            <Image url="@../images/leanna.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="89.0" layoutX="342.0" layoutY="228.0">
+         <image>
+            <Image url="@../images/shalimar.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
