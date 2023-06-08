@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <ImageView fitHeight="106.0" fitWidth="266.0" layoutX="122.0" layoutY="55.0">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="156.0" layoutY="179.0" text="Thank you for shopping with us!">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e9ebef" height="218.0" layoutX="63.0" layoutY="229.0" stroke="#faf7f700" strokeType="INSIDE" width="384.0" />
+      <Label layoutX="83.0" layoutY="246.0" text="Order Summary" textFill="#1649a6">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="280.0" text="Items">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="280.0" text="Quantity">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="374.0" layoutY="280.0" text="Price">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="name1" layoutX="88.0" layoutY="315.0" text="name1" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name2" layoutX="88.0" layoutY="355.0" text="name2" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name3" layoutX="88.0" layoutY="401.0" text="name3" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty1" layoutX="241.0" layoutY="315.0" text="qty1" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty2" layoutX="241.0" layoutY="356.0" text="qty2" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty3" layoutX="241.0" layoutY="400.0" text="qty3" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lineAmount1" layoutX="361.0" layoutY="315.0" text="lineAmount1" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lineAmount2" layoutX="360.0" layoutY="356.0" text="lineAmount2" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lineAmount3" layoutX="360.0" layoutY="400.0" text="lineAmount3" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e9ebef" height="65.0" layoutX="63.0" layoutY="465.0" stroke="#faf7f700" strokeType="INSIDE" width="384.0" />
+      <Label layoutX="279.0" layoutY="486.0" text="Total" textFill="#1649a6">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="Total" layoutX="372.0" layoutY="489.0" text="Total" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1644a1" height="65.0" layoutY="588.0" stroke="#faf7f700" strokeType="INSIDE" width="510.0" />
+   </children>
+</Pane>
